@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+         malnutrition Form
+    </title>
+</head>
+<body>
+    <link href="registration_form.css"  rel="stylesheet" />
+ <h2>Demographic information</h2>
+    <form name="form1" action="connection.php" method="post">
+            <!--information about the house hold-->
+    <div class="container">
+            <div class="form_group">
+                <P>
+                    <label for="hname"><strong>Household head name:</strong></label>
+                    <input type="text" id="hname" name="hname">
+                 </p>
+                <p><strong>Gender</strong></p>
+                    <select id="genderp" name="genderp">
+                        <option value=""></option>
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="phone"><strong>Phone number: </strong></label><br><br>
+                    <input type="tel" id="phone" name="phone">
+                    <small>Format: 070222222</small><br><br>
+                </p>
+            </div>
+
+
+            <!--total number of children under the age of 5-->
+            <div class="form_group">
+                <p>
+                    <label for="no_child"> <strong>Number of children:</strong></label>
+                    <input type="number" id="no_child" name="no_child">
+                    
+                </p>
+                <h3><em>information for children under 5 years</em></h3>
+                <p>
+                    <label for="cname"><strong>Child's name:</strong></label>
+                    <input type="text" id="cname" name="cname">
+                </p>
+                <p>
+                    <label for="cage"> <strong>Age:</strong></label>
+                    <input type="number" id="cage" name="cage" min="1" max="99">
+                </p>
+
+                <p>
+                    <label for="birthday"><strong>Date of birth:</strong></label>
+                    <input type="date" id="birthday" name="birthday">
+                </p>
+                
+                <p><strong>Gender</strong></p>
+                    <select id="gender_c" name="gender_c">
+                        <option value=""></option>
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                    </select>
+                </p>
+            </div>
+            <!--information on the women available-->
+            <div class="form_group">
+                <P> <em>This information is to be filled only for women </em></P>
+                <p>
+                    <label for="no_women"> <strong>Number of women:</strong></label>
+                    <input type="number" id="no_women" name="no_women">
+                </p>
+                <P>
+                    <label for="fname"><strong> Female names:</strong></label>
+                    <input type="text" id="fname" name="fname">
+                </P>
+                <p>
+                    <label for="Age_women"> <strong> Age:</strong></label>
+                    <input type = "number" id="Age_women" name="Age_women" min="15" max="49">
+                </p>
+
+                <p>
+                    <label for="marital"><strong>Marital status:</strong></label>
+                    <select id="marital_status" name="marital_status">
+                        <option value=""></option>
+                        <option value="married">Married</option>
+                        <option value="single">Single</option>
+                        <option value="Divorced">Divorced</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="pregnancy_status"><strong>Pregrancy status:</strong></label>
+                    <select id="pregnancy_status" name="pregnancy_status">
+                        <option value=""></option>
+                        <option value="no">no</option>
+                        <option value="yes">yes</option>
+                    </select>
+                </p>
+            </div>
+            <!--questionnaires to be filled-->
+            <div class="form_group">
+                <h3>Questionaires <strong>be filled must be filled</strong> </h3>
+
+                <P>
+                    <label for="sources"><strong>Source of water:</strong></label>
+                    <select id="sources" name="sources">
+                        <option value=""></option>
+                        <option value="tap">Tap</option>
+                        <option value="well">well</option>
+                        <option value="spring">Spring</option>
+                        <option value="stream">Stream</option>
+                        <option value="others">others</option>
+                    </select>
+                </P>
+
+                <p>
+                    <label for="Distnce"><strong>Distance to the water source:</strong></label>
+                    <select id="Distance" name="Distance">
+                        <option value=""></option>
+                        <option value="tap">less than a kilometer</option>
+                        <option value="well"> one and a half kilometers</option>
+                        <option value="spring">more than 2 kilometers</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="ranking"><strong>Do they use drying racks:</strong></label>
+                    <select id="ranking" name="ranking">
+                        <option value=""></option>
+                        <option value="no">no</option>
+                        <option value="yes">yes</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="rubish"><strong>Do they have a rubish pit:</strong></label>
+                    <select id="status" name="status">
+                        <option value=""></option>
+                        <option value="no">no</option>
+                        <option value="yes">yes</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="source"><strong>Do they use mosquito net:</strong></label>
+                    <select id="rubish" name="rubish">
+                        <option value=""></option>
+                        <option value="no">no</option>
+                        <option value="yes">yes</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="kitchen"><strong>Do they have a kitchen:</strong></label>
+                    <select id="kitchen" name="kitchen">
+                        <option value=""></option>
+                        <option value="no">no</option>
+                        <option value="yes">yes</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="cooking"><strong>Methods used for cooking:</strong></label>
+                    <select id="cooking" name="cooking">
+                        <option value=""></option>
+                        <option value="Boiling">Boiling</option>
+                        <option value="steaming">Steaming</option>
+                        <option value="Roasting">Roasting</option>
+                        <option value="others">others</option>
+                    </select>
+                </p>
+                <h3><strong> Assess the child for nutrition using Mid Upper Arm circumference (MUAC) </strong></h3>
+
+                <p>
+                    <label for="B_mothers"><strong> Breastfeeding mother:</strong></label>
+                    <select id="B_mothers" name="B_mothers">
+                        <option value=""></option>
+                        <option value="no">no</option>
+                        <option value="yes">yes</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="odema"><strong>Does the child have oedema:</strong></label>
+                    <select id="odema" name="odema">
+                        <option value=""></option>
+                        <option value="no">no</option>
+                        <option value="yes">yes</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="yes"><strong> if yes</strong></label>
+                    <select id="yes" name="yes">
+                        <option value=""></option>
+                        <option value="status">Oedema+ </option>
+                        <option value="status">Oedema++ </option>
+                        <option value="status">Oedema+++ </option>
+                    </select>
+                </p>
+                <p>
+                    <label for="weight"> <strong> weight of the child in Kgs:</strong></label>
+                    <input type="number" id="weight" name="weight" min="1">
+                </p>
+
+                <p>
+                    <label for="muac"> <strong> child's MUAC cm:</strong></label>
+                    <input type="number" id="muac" name="muac" min="1">
+                </p>
+                <!--generates the colour for the MAUC-->
+                <form action="/action_page.php">
+                    <label for="mauccolor"> <strong> colour of the MAUC reading:</strong></label>
+                    <select id="mauccolor" name="mauccolor">
+                        <option value=""></option>
+                        <option value="color">red</option>
+                        <option value="">yellow</option>
+                        <option value="">green</option>
+                        <input type="color" id="color" name="color" value="#ffffff">
+
+                <p><strong><u>If the child’s MUAC is in red still a notification of emergency should show up for referral</u></strong></p>
+                <p>
+                    <strong>Message to the care giver (this is a guide the health volunteer can tell to the child’s care giver)</strong>
+                <p>
+                    Your child needs food from 2 or three of the different food groups at every meal.<br>
+                    In addition to the breast milk ensure that your child is feed on some of these foods as regularly as possible
+                    Such as:
+                    <ul>
+                        <li>meats</li>
+                        <li>fish</li>
+                        <li>chicken</li>
+                        <li>eggs</li>
+                        <li>beans</li>
+                        <li>peas</li>
+                        <li>vegetables</li>
+                        <li>fruits</li>
+                    </ul>
+                    These foods are important for your child's proper growth<br>
+
+                <p>
+                    <label for="feeding"><strong> baby feed in 24 hrs:</strong></label>
+                    <select id="feeding" name="feeding">
+                        <option value=""></option>
+                        <option value="o">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">&gt;5</option>
+                    </select>
+
+                </p>
+                <p>
+                    <input type="submit" name="Submit" id="Submit" value="Submit">
+                </p>
+
+            </div>
+        </div>
+        </form>
+</body>
+</html>
