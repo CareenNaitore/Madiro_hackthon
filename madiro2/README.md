@@ -22,7 +22,7 @@ Although the form can generate data, we have future prospectives for programme:
 1. Genrating the form on an offline platform 
 2. Generating statistics to inform researchers and the health workers.
 
-**required database for the appli**
+**required database for the application**
  
 Database: 
 
