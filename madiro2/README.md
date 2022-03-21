@@ -17,10 +17,12 @@ Although the form can generate data, we have future prospectives for programme:
 1. Genrating the form on an offline platform 
 2. Generating statistical analysis for the health workers while at the field 
 
+** required database for the app**
 
-Database
-MySQL: cotains the fields from our forms 
+Database:
+a. PHP language processore to convert the html file in the sql datase format.
+b. MySQL: cotains the fields from our forms 
 
-Tools
-Github https://github.com/
-Visual Studio Code https://code.visualstudio.com/
+Tools:
+storage_platform: Github https://github.com/
+IDE: Visual Studio Code https://code.visualstudio.com/
