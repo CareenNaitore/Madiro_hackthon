@@ -24,5 +24,5 @@ a. PHP language processore to convert the html file in the sql datase format.
 b. MySQL: cotains the fields from our forms 
 
 Tools:
-storage_platform: Github https://github.com/
-IDE: Visual Studio Code https://code.visualstudio.com/
+1. storage_platform: Github https://github.com/
+2. IDE: Visual Studio Code https://code.visualstudio.com/
