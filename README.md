@@ -19,14 +19,14 @@ The Application also informs the health work on crictical case and how to handle
 
 Although the form can generate data, we have future prospectives for programme: 
 
-1. Genrating the form on an offline platform 
+1. Generating the form on an offline platform 
 2. Generating statistics to inform researchers and the health workers.
 
 **required database for the application**
  
 Database: 
 
-1. PHP language processore to convert the html file in the sql datase format.
+1. PHP language processor to convert the html file in the sql datase format.
 2. MySQL: contains the fields from our forms 
 
 Tools:
